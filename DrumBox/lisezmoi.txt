@@ -1,0 +1,15 @@
+/* To Do */
+Faire des pad carré
+Placer des son cool 
+Changer de backGround
+
+/* Etape de programmation */
+Index.html 
+On créer une div#music-box.musicBox
+
+script.js 
+Une const data qui contient un tableau qui associe un numéro de clavier à une chaine contenant l'url
+
+la fonction construct qui construit le drumPad
+La fonction qui joue le son au clavier ou au clique de souris
+La fonction qui ( ajoute/Supprime la classe down ) sur le pad recevant l'evenement

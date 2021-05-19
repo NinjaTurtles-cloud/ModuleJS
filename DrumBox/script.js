@@ -13,7 +13,6 @@ const data = {
   };
 
 /* Constructeur du drumPad */
-/**/ 
 function construct(){
     for(const letter in data){ // On récupère chaque lettre du tableau data
         const keyDiv = document.createElement('div');//créer une div dans la constante 'keydiv'

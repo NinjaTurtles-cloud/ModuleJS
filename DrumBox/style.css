@@ -4,9 +4,9 @@ body{
 }
 .music-box{
     width: 100%;
-    height: 80%;
+    height: 100%;
     margin: 0 auto;
-    padding-top: 20%;
+    padding: 20%;
     display: flex;
     white-space: initial;
     flex-wrap: wrap;
@@ -21,8 +21,8 @@ body{
     background: rgba(10,211,238,0.5);
     box-shadow: 2px 2px 2px #333;
     cursor: pointer;
-    width: 33%;
-    display: flex;
+    width: 50px;;
+    /*display: flex;*/
     
 }
 .drum:active{

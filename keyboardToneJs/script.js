@@ -1,5 +1,5 @@
 const piano = document.querySelector('#piano');
-const data = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
+const data = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
 
 let html =''
 for (let octave=0; octave<2; octave++){

@@ -1,3 +1,2 @@
-Utilisation de toeJS
+Création d'un synthé en JavaScript
 
-Bug ligne19 script JS

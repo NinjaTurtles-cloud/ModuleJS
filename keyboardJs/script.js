@@ -16,14 +16,12 @@ piano.insertAdjacentHTML('beforeend', html)
 
 const notes = document.querySelectorAll('.whiteNote, .blackNote')
 const keys = ["q", "z", "s", "e", "d", "f", "t", "g", "y", "h", "u", "j", "k", "i", "l", "o", "m", "p", "ù", "w", "=", "]", "Backspace", "\\"]
-//const synth = new Tone.PolySynth(Tone.Synth).toDestination();
 
 document.addEventListener('keydown',(e)=>{
-    e.preventDefault()
+   // e.preventDefault()
     keys.forEach((key,index)=>{
         if(e.key==key){
             notes[index].style.background = (notes[index].classList.contains('whiteNote')) ? "#ccc" : "black"
-            synth.triggerAttackRelease(notes[index].dataset.code,'16n')
         }
     })
 })

@@ -1,0 +1,12 @@
+Merci a franck laboratory pour ce tutoriel
+https://www.youtube.com/watch?v=VXWvfrmpapI&ab_channel=Frankslaboratory
+
+Un super site des ressources sonore 
+https://opengameart.org/
+
+Convertir un fichier audio en base64
+https://base64.guru/converter/encode/audio
+
+La Web Audio API
+https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API
+

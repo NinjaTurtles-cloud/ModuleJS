@@ -17,6 +17,7 @@
     left : 0;
     width: 100%;
     height: 100%;
+    filter: bur(5px) contrast(5)
 }
 #audio1{
     width: 50%;

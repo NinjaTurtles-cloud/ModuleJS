@@ -1,6 +1,30 @@
 Merci a franck laboratory pour ce tutoriel
 https://www.youtube.com/watch?v=VXWvfrmpapI&ab_channel=Frankslaboratory
 
+I JavaScript & HTML canvas visualiser que nous allons frabriquer
+Pour les amoureux de la musique et de Javascript découvré La puissance de canvas et Vanila JavaScript en crént un visualiseur de fréquence Audio avec moi pour découvrir les base de l'Audio avec JS et pouvoir ensuite créer une application du type melodyMaker.
+
+II Coment jouer des fichier audio en JavaScript
+Pour commencer vous devez créez le classique html5 style.css script.js
+Un div#boutton1 dans le html 
+un body{ black } dans le css
+une constante get#boutton1 dans le script.js et un evenement avec une au clique sur le boutton1 avec une callback fonction qui contient le code pour jouer le fichier son. 
+Ensuite il faut créer une nouvelle variable let audio1 = new Audio. new est un mot clé spécilae en JS et Audio est un constructeur de classe intégré qui servira a créer une nouvelle instance de classe audio en JS qui créera un nouvel HTML vierge ce qui est pareille qu'écrire une balise audio html dans notre index.html. Cet objet peut etre attaché a une page Web pour que l'utilisateur puisse interAgir avec ou il peut simplement rester hors ecran. 
+Pour que le son puisse etre jouer on doit lui donner une source qui peut etre n'importe quelle fichier son commun ( mp3, ogg, aiff, wav .... ). 
+Pour ce projet vous pouver prendre un son sur OpenGamesArt.com et choisir un son court et puissant pour voir une belle plage de frequence. J'en choisis un, je l'enregistre et maintenant je place son chemin  dans audio1.src = ... Puis je vais dans l'evenementClique du button1 pour lire le son contenuu dans la variable audio1 
+
+
+
+III Media event sur un element audio
+
+IV Jouer un son depuis une chaine de caractere base64
+
+V Généré du son avec la Web Api Audio
+
+VI JS Mettre en place un projet de visualiser audio
+
+VII Visualisation des frequences sonore avec FFT
+
 Un super site pour trouver des ressources sonore visuelle 
 https://opengameart.org/
 
@@ -12,4 +36,6 @@ https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API
 
 Astuce
 Alt+Z permet de raccourci une ligne sur visual studiocode
+
+Couleur Hue c'est quoi ? 
 
